@@ -13,6 +13,7 @@
 		116021EF25A3A4780023E889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116021ED25A3A4780023E889 /* Main.storyboard */; };
 		116021F125A3A47B0023E889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116021F025A3A47B0023E889 /* Assets.xcassets */; };
 		116021F425A3A47B0023E889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116021F225A3A47B0023E889 /* LaunchScreen.storyboard */; };
+		1160222625A5DF4A0023E889 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1160222525A5DF4A0023E889 /* CircleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		116021F025A3A47B0023E889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		116021F325A3A47B0023E889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		116021F525A3A47B0023E889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1160222525A5DF4A0023E889 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				116021E725A3A4780023E889 /* AppDelegate.swift */,
 				116021E925A3A4780023E889 /* SceneDelegate.swift */,
 				116021EB25A3A4780023E889 /* ViewController.swift */,
+				1160222525A5DF4A0023E889 /* CircleButton.swift */,
 				116021ED25A3A4780023E889 /* Main.storyboard */,
 				116021F025A3A47B0023E889 /* Assets.xcassets */,
 				116021F225A3A47B0023E889 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				116021EC25A3A4780023E889 /* ViewController.swift in Sources */,
 				116021E825A3A4780023E889 /* AppDelegate.swift in Sources */,
 				116021EA25A3A4780023E889 /* SceneDelegate.swift in Sources */,
+				1160222625A5DF4A0023E889 /* CircleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

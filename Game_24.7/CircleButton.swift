@@ -23,7 +23,10 @@ class CircleButton: UIButton {
     override func prepareForInterfaceBuilder() {
         if roundButton {
             layer.cornerRadius = frame.height / 2
+        
         }
     }
+    
+    
     
 }

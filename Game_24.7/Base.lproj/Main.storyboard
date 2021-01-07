@@ -15,11 +15,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Whl-SX-eeE" customClass="CircleButton" customModule="Game_24_7" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Whl-SX-eeE" customClass="CircleButton" customModule="Game_24_7" customModuleProvider="target">
                                 <rect key="frame" x="223" y="125" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="b0k-y8-26e"/>
+                                    <constraint firstAttribute="width" constant="100" id="dfR-zu-kOs"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
                                 </userDefinedRuntimeAttributes>
@@ -27,11 +30,14 @@
                                     <outletCollection property="gestureRecognizers" destination="xxt-Gk-tzD" appends="YES" id="KpR-nZ-fpp"/>
                                 </connections>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z94-hH-109" customClass="CircleButton" customModule="Game_24_7" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z94-hH-109" customClass="CircleButton" customModule="Game_24_7" customModuleProvider="target">
                                 <rect key="frame" x="87" y="215" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Lhc-ef-CHu"/>
+                                    <constraint firstAttribute="width" constant="100" id="saH-Aw-PuD"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
                                 </userDefinedRuntimeAttributes>
@@ -39,11 +45,14 @@
                                     <outletCollection property="gestureRecognizers" destination="Rog-gE-JK7" appends="YES" id="4Q5-OF-YwF"/>
                                 </connections>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I4d-fZ-dyz" customClass="CircleButton" customModule="Game_24_7" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I4d-fZ-dyz" customClass="CircleButton" customModule="Game_24_7" customModuleProvider="target">
                                 <rect key="frame" x="157" y="339" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="IvJ-LC-YDe"/>
+                                    <constraint firstAttribute="height" constant="100" id="gMp-6o-dnx"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
                                 </userDefinedRuntimeAttributes>
@@ -51,9 +60,8 @@
                                     <outletCollection property="gestureRecognizers" destination="YCP-Zb-Yud" appends="YES" id="hcr-nr-ham"/>
                                 </connections>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aaK-nR-ZtV" customClass="CircleButton" customModule="Game_24_7" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aaK-nR-ZtV" customClass="CircleButton" customModule="Game_24_7" customModuleProvider="target">
                                 <rect key="frame" x="58" y="471" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
                                 <userDefinedRuntimeAttributes>
@@ -63,9 +71,8 @@
                                     <outletCollection property="gestureRecognizers" destination="uJq-m9-t6e" appends="YES" id="LfM-8P-QWf"/>
                                 </connections>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hio-fJ-r34" customClass="CircleButton" customModule="Game_24_7" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hio-fJ-r34" customClass="CircleButton" customModule="Game_24_7" customModuleProvider="target">
                                 <rect key="frame" x="201" y="471" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
                                 <userDefinedRuntimeAttributes>
@@ -75,9 +82,8 @@
                                     <outletCollection property="gestureRecognizers" destination="6nu-o8-m21" appends="YES" id="gpb-Vy-Wua"/>
                                 </connections>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eY6-rA-sha" customClass="CircleButton" customModule="Game_24_7" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eY6-rA-sha" customClass="CircleButton" customModule="Game_24_7" customModuleProvider="target">
                                 <rect key="frame" x="87" y="639" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
                                 <userDefinedRuntimeAttributes>
@@ -87,9 +93,8 @@
                                     <outletCollection property="gestureRecognizers" destination="hYT-PG-iTh" appends="YES" id="RcY-jk-7mZ"/>
                                 </connections>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uir-am-Dq7" customClass="CircleButton" customModule="Game_24_7" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uir-am-Dq7" customClass="CircleButton" customModule="Game_24_7" customModuleProvider="target">
                                 <rect key="frame" x="223" y="639" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
                                 <userDefinedRuntimeAttributes>
@@ -101,8 +106,49 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="eY6-rA-sha" firstAttribute="bottom" secondItem="uir-am-Dq7" secondAttribute="bottom" id="1sz-Dq-Qlx"/>
+                            <constraint firstItem="eY6-rA-sha" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="639" id="37N-S3-ryE"/>
+                            <constraint firstItem="hio-fJ-r34" firstAttribute="leading" secondItem="aaK-nR-ZtV" secondAttribute="trailing" constant="43" id="4vz-sd-qrR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hio-fJ-r34" secondAttribute="trailing" constant="113" id="Bdn-eM-gSm"/>
+                            <constraint firstItem="eY6-rA-sha" firstAttribute="top" secondItem="uir-am-Dq7" secondAttribute="top" id="BhW-YC-F8m"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Whl-SX-eeE" secondAttribute="trailing" constant="91" id="C8z-36-4lK"/>
+                            <constraint firstItem="hio-fJ-r34" firstAttribute="top" secondItem="aaK-nR-ZtV" secondAttribute="top" id="E94-QN-ckv"/>
+                            <constraint firstItem="Z94-hH-109" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="171" id="HNZ-Ba-weF"/>
+                            <constraint firstItem="Whl-SX-eeE" firstAttribute="leading" secondItem="Z94-hH-109" secondAttribute="trailing" constant="36" id="L7M-JG-BIZ"/>
+                            <constraint firstItem="I4d-fZ-dyz" firstAttribute="top" secondItem="Z94-hH-109" secondAttribute="bottom" constant="24" id="OnQ-uS-FcH"/>
+                            <constraint firstItem="eY6-rA-sha" firstAttribute="top" secondItem="aaK-nR-ZtV" secondAttribute="bottom" constant="68" id="PLy-03-fw7"/>
+                            <constraint firstItem="Whl-SX-eeE" firstAttribute="leading" secondItem="uir-am-Dq7" secondAttribute="leading" id="RZC-AZ-YTS"/>
+                            <constraint firstItem="aaK-nR-ZtV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="471" id="Txu-9g-2IY"/>
+                            <constraint firstItem="Z94-hH-109" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="V4n-3l-2FH"/>
+                            <constraint firstItem="eY6-rA-sha" firstAttribute="baseline" secondItem="uir-am-Dq7" secondAttribute="baseline" id="Wcl-hi-ypI"/>
+                            <constraint firstItem="hio-fJ-r34" firstAttribute="bottom" secondItem="aaK-nR-ZtV" secondAttribute="bottom" id="bv6-do-NjL"/>
+                            <constraint firstAttribute="trailing" secondItem="aaK-nR-ZtV" secondAttribute="trailing" constant="256" id="c8b-6M-W2o"/>
+                            <constraint firstItem="eY6-rA-sha" firstAttribute="firstBaseline" secondItem="uir-am-Dq7" secondAttribute="firstBaseline" id="cFD-OM-xJb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eY6-rA-sha" secondAttribute="bottom" constant="123" id="dKs-5H-FWh"/>
+                            <constraint firstItem="hio-fJ-r34" firstAttribute="baseline" secondItem="aaK-nR-ZtV" secondAttribute="baseline" id="dgl-3q-4bO"/>
+                            <constraint firstItem="Z94-hH-109" firstAttribute="leading" secondItem="eY6-rA-sha" secondAttribute="leading" id="eZ8-Ji-IsC"/>
+                            <constraint firstItem="Z94-hH-109" firstAttribute="trailing" secondItem="eY6-rA-sha" secondAttribute="trailing" id="iLI-qg-LbN"/>
+                            <constraint firstItem="hio-fJ-r34" firstAttribute="firstBaseline" secondItem="aaK-nR-ZtV" secondAttribute="firstBaseline" id="ibc-uI-h1W"/>
+                            <constraint firstItem="I4d-fZ-dyz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="157" id="jw0-ME-eiX"/>
+                            <constraint firstItem="hio-fJ-r34" firstAttribute="top" secondItem="I4d-fZ-dyz" secondAttribute="bottom" constant="32" id="npQ-Q8-dek"/>
+                            <constraint firstItem="aaK-nR-ZtV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="58" id="pRq-nM-Geg"/>
+                            <constraint firstItem="Whl-SX-eeE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="81" id="r51-wf-cnA"/>
+                            <constraint firstItem="Whl-SX-eeE" firstAttribute="trailing" secondItem="uir-am-Dq7" secondAttribute="trailing" id="rMi-9h-Eex"/>
+                            <constraint firstAttribute="bottom" secondItem="Z94-hH-109" secondAttribute="bottom" constant="581" id="tbc-m3-kad"/>
+                            <constraint firstItem="I4d-fZ-dyz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vbr-yU-XL8"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="viewFive" destination="aaK-nR-ZtV" id="AYY-Pa-w4n"/>
+                        <outlet property="viewFour" destination="hio-fJ-r34" id="WOx-gu-Zma"/>
+                        <outlet property="viewOne" destination="Whl-SX-eeE" id="VRS-jR-HQO"/>
+                        <outlet property="viewSeven" destination="eY6-rA-sha" id="aTd-oT-abk"/>
+                        <outlet property="viewSix" destination="uir-am-Dq7" id="pJj-ET-BSX"/>
+                        <outlet property="viewThree" destination="I4d-fZ-dyz" id="s3z-CG-ZNL"/>
+                        <outlet property="viewTwo" destination="Z94-hH-109" id="IPD-m8-jeP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="xxt-Gk-tzD">

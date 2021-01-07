@@ -10,12 +10,37 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var viewOne: UIView!
+    @IBOutlet weak var viewTwo: UIView!
+    @IBOutlet weak var viewThree: UIView!
+    @IBOutlet weak var viewFour: UIView!
+    @IBOutlet weak var viewFive: UIView!
+    @IBOutlet weak var viewSix: UIView!
+    @IBOutlet weak var viewSeven: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
     
     @IBAction func panActionOne(_ gesture: UIPanGestureRecognizer) {
+        
+        let oneViewFrame = viewOne.frame
+        let twoViewFrame = viewTwo.frame
+        let threeViewFrame = viewThree.frame
+       
+        
+        for value in Int(twoViewFrame.minY)...Int(twoViewFrame.maxY) {
+            if Int(oneViewFrame.origin.y) == value {
+                viewOne.isHidden = true
+            }
+        }
+        
+        for value in Int(threeViewFrame.minY)...Int(threeViewFrame.maxY) {
+                   if Int(oneViewFrame.origin.y) == value {
+                       viewOne.isHidden = true
+                   }
+               }
         
          let gestureTranslation = gesture.translation(in: view)
                 

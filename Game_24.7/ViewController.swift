@@ -27,43 +27,34 @@ class ViewController: UIViewController {
         
         let oneViewFrame = viewOne.frame
         let twoViewFrame = viewTwo.frame
-        let threeViewFrame = viewThree.frame
        
+        let gestureTranslation = gesture.translation(in: view)
+        
+        guard let gestureView = gesture.view else {
+            return
+        }
+        
+        gestureView.center = CGPoint (
+            x: gestureView.center.x + gestureTranslation.x,
+            y: gestureView.center.y + gestureTranslation.y
+        )
+        
+        gesture.setTranslation(.zero, in: view)
+        
+        guard gesture.state == .ended else {
+            return
+        }
+        
+        print("item 1")
         
         for value in Int(twoViewFrame.minY)...Int(twoViewFrame.maxY) {
             if Int(oneViewFrame.origin.y) == value {
                 viewOne.isHidden = true
             }
         }
-        
-        for value in Int(threeViewFrame.minY)...Int(threeViewFrame.maxY) {
-                   if Int(oneViewFrame.origin.y) == value {
-                       viewOne.isHidden = true
-                   }
-               }
-        
-         let gestureTranslation = gesture.translation(in: view)
-                
-                guard let gestureView = gesture.view else {
-                    return
-                }
-                
-                gestureView.center = CGPoint (
-                    x: gestureView.center.x + gestureTranslation.x,
-                    y: gestureView.center.y + gestureTranslation.y
-                )
-                
-                gesture.setTranslation(.zero, in: view)
-                
-                guard gesture.state == .ended else {
-                    return
-                }
-                
-                print("item 1")
             }
     
     @IBAction func panActionTwo(_ gesture: UIPanGestureRecognizer) {
-        
         let gestureTranslation = gesture.translation(in: view)
         
         guard let gestureView = gesture.view else {
@@ -82,10 +73,13 @@ class ViewController: UIViewController {
         }
         
         print("item 2")
-        
     }
     
+    
     @IBAction func panActionThree(_ gesture: UIPanGestureRecognizer) {
+        
+        let threeViewFrame = viewThree.frame
+        let twoViewFrame = viewTwo.frame
         
         let gestureTranslation = gesture.translation(in: view)
         
@@ -105,6 +99,12 @@ class ViewController: UIViewController {
         }
         
         print("item 3")
+        
+        for value in Int(twoViewFrame.minY)...Int(twoViewFrame.maxY) {
+            if Int(threeViewFrame.origin.y) == value {
+                viewThree.isHidden = true
+            }
+        }
         
     }
     
